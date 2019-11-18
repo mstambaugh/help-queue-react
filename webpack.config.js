@@ -68,14 +68,6 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
-            {
-        test: /\.css$/i,
-        use: [
-          'handlebars-loader', // handlebars loader expects raw resource string
-          'extract-loader',
-          'css-loader',
-        ],
-      },
     ]
   },
   
